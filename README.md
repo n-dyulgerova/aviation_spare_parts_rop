@@ -17,7 +17,7 @@ Excel + Power Query + Power BI analysis that classifies spare parts by demand pa
 37 Intermittent, 20 Smooth, 3 Lumpy, 0 Erratic. Total safety stock about 315 units. 30 of 60 parts are below ROP.
 
 ## Limitations
-Synthetic data; ABC is quantity-based (no cost field); moving average stands in for SES; no Erratic or Z-class parts in this sample; one flat service level. Full notes are in (docs/Methodology_Notes.md).
+Synthetic data; ABC is quantity-based (no cost field); moving average stands in for SES; no Erratic or Z-class parts in this sample; one flat service level. Full notes are in [`docs/Methodology_Notes`](docs/Methodology_Notes.md).
 
 ## Files
 -  [`excel/Analysis.xlsx`](excel/Analysis.xlsx) : formulas for classification, forecasts, safety stock and ROP
