@@ -20,6 +20,6 @@ Excel + Power Query + Power BI analysis that classifies spare parts by demand pa
 Synthetic data; ABC is quantity-based (no cost field); moving average stands in for SES; no Erratic or Z-class parts in this sample; one flat service level. Full notes are in `docs/`.
 
 ## Files
-- excel/Analysis.xlsx: formulas for classification, forecasts, safety stock and ROP
-- `powerbi/Analysis_ROP.pbix`: model, DAX measures, dashboard
+-  [`excel/Analysis.xlsx`](excel/Analysis.xlsx) : formulas for classification, forecasts, safety stock and ROP
+- [`powerbi/Analysis_ROP`](powerbi/Analysis_ROP.pbix): model, DAX measures, dashboard
 - `docs/`: methodology notes
